@@ -1,0 +1,75 @@
+.blind {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+}
+
+#wrap {
+  min-width: 1340px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* sp1 */
+#header .search-area .btn-keyboard::before,
+#header .search-area .btn-auto::before,
+#header .nav-area .icon::before,
+#header .nav-area .icon::after,
+#header .nav-area .chzzk::before,
+#header .nav-area .nav-item:hover .icon::before,
+#header .nav-item:hover .icon.more::after,
+#header .util-area [class*="btn-"]::after,
+.sc-news .group-issue .issue-area .issue-down,
+.sc-news .group-control .btn.prev::before,
+.sc-news .group-control .btn.next::before,
+.sc-news .group-control .btn-list::before,
+.sc-news .group-control .btn-thumb::before,
+.sc-login .link-login::before,
+.sc-shopping .group-control .btn.prev::before,
+.sc-shopping .group-control .btn.next::before,
+.sc-weather .group-head .weather-compare::before,
+#footer .notice-area .link-all::after{
+  background-image: url(../images/sp-bg1.png);
+  background-size: 443px auto;
+  background-repeat: no-repeat;
+}
+
+.sc-shopping .group-shopping .quick-icon::before {
+  background-image: url(../images/sp-bg2.png);
+  background-size: 158px auto;
+  background-repeat: no-repeat;
+}
+
+.sc-news .group-control .btn-list:hover::before,
+.sc-news .group-control .btn-thumb:hover::before,
+.sc-finance .group-head .info::before,
+.sc-finance .group-head .return::before,
+.sc-finance .group-head .return:hover::before,
+.sc-finance .group-left .up,
+.sc-finance .group-right .up,
+.sc-finance .group-right .down,
+.sc-finance .group-right .right,
+.sc-widget .group-papago .papago::before,
+.sc-widget .group-papago .papago::after,
+.sc-widget .link-area::before,
+.sc-widget .link-area::after,
+.sc-widget .widget-btn::before
+{
+  background-image: url(../images/sp-bg3.png);
+  background-size: 463px auto;
+  background-repeat: no-repeat;
+}
+
+.sc-weather .group-weather .good::after,
+.sc-weather .weather-item .weather.good-night::after,
+.sc-weather .weather-item .weather.good::after 
+{
+  background-image: url(../images/sp_weather.png);
+  background-size: 641px auto;
+  background-repeat: no-repeat;
+}
